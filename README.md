@@ -1,14 +1,18 @@
-START GAME:
-
-Adicionando no GitHub.
+"JOSEPH": Jogo feito por Everton Rodrigo e Weslley de Lima - W3 Studios
 
 
 
-Commit 1:
+Commit 4:
 
-* Casa (Cenário)
-* Personagem (Character)
-* Movimento (WASD e/ou SETAS)
+* 
+
+
+
+Commit 3:
+
+* Abri no PC: Descobri como funciona o versionamento para abrir em outro PC. Tive problema com a cena (scenes) mas resolvi, era só entrar na pasta e clicar: Assets > Scenes e Pronto.
+* Apenas Salvando para Registras, o Commit 4 vou começar a programar as movimentações como WALKING, JUMP, AGACHAR e outras que já coloquei, mas falta ativar, com a IDLE.
+* Problema com as Texturas tmbm, voltei pra umas originais que já tinha a da Arvore, enquanto a da grama, consegui recuperar.
 
 
 
@@ -20,10 +24,13 @@ Commit 2:
 
 
 
-Commit 3:
+Commit 1:
 
-* Abri no PC: Descobri como funciona o versionamento para abrir em outro PC. Tive problema com a cena (scenes) mas resolvi, era só entrar na pasta e clicar: Assets > Scenes e Pronto.
-* Apenas Salvando para Registras, o Commit 4 vou começar a programar as movimentações como WALKING, JUMP, AGACHAR e outras que já coloquei, mas falta ativar, com a IDLE. 
+* Casa (Cenário)
+* Personagem (Character)
+* Movimento (WASD e/ou SETAS)
 
 
+
+START GAME: Adicionando no GitHub.
 
