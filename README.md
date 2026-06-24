@@ -1,5 +1,13 @@
 "JOSEPH": Jogo feito por Everton Rodrigo e Weslley de Lima - W3 Studios
 
+Commit 5: Everton Rodrigo (Modelagem 3D, Iluminação, Mecânica e Programação)
+
+* CRIAÇÃO DA LANTERNA, ADICIONEI A LUZ e JUNTEI COM A MÃO.
+* PROGRAMEI PARA ACENDER e APAGAR A LUZ DA LANTERNA.
+* MELHOREI AS BOX COLIDER PARA MELHOR GAMEPLAY e ADICIONEI OUTRAS NOVAS nas Bordas da casa e nos cômodos para dar um efeito de dentro de casa e o personagem não sair da casa ou a camera pegar a parte de fora.
+* PROGRAMEI A MECANICA DE PULAR (Tentei "cair", mas não gostei muito da animação que eu fiz, depois posso aprimorar ela e voltar com, mas o pulo já ficou bom)
+* Fiz as Killzones (No Buraco do quintal e No espaço ao redor do Terreno) e Programei para o jogo acabar e aparecer o botão de Reset, nos próximos commits aprimoro, até agora só fiz a zona de morte e o travamento do jogo.
+- Aprendi bastante hoje!
 
 
 Commit 4: Everton Rodrigo (Programação e Iluminação) e Weslley de Lima (Cenário)
