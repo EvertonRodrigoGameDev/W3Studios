@@ -1,5 +1,12 @@
 "JOSEPH": Jogo feito por Everton Rodrigo e Weslley de Lima - W3 Studios
 
+Commit 6: Everton Rodrigo (Modelagem 3D, Iluminação, Mecânica e Programação)
+
+* TRANSFORMEI O ESPELHO EM ESPELHO REAL COM REFLEXO QUE O PERSONAGEM CONSEGUE SE VER E VER O CENÁRIO.
+* ADICIONEI A MÚSICA DO JOGO (NA TELA INICIAL EM LOOP)
+* PASSEI HORAS TENTANDO RESOLVER O PROBLEMA DO TEXTO QUE NÃO APARECIA (Por fim descobri que era APENAS desinstalar o pacote do TEXT MeshPro e instalar de novo que ia voltar a pegar, e eu que eu não precisava instalar o EXTRA que fica embaixo.)
+* FIZ A BASE DA INTERFACE DO JOGO (Com animação do "Pressione qualquer tecla...") MAS AINDA FALTA RESOLVER O PROBLEMA DA IMAGEM / VIDEO QUE FICA SUMINDO TODA VEZ QUE DOU PLAY NO JOGO (Não sei por que e nem tutorial e nem IA tá conseguindo resolver, estou surtando mas passo bem). 
+
 Commit 5: Everton Rodrigo (Modelagem 3D, Iluminação, Mecânica e Programação)
 
 * CRIAÇÃO DA LANTERNA, ADICIONEI A LUZ e JUNTEI COM A MÃO.

@@ -125,7 +125,7 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: Estar no Chao
+  - m_Name: estaNoChao
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -178,7 +178,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: Estar no Chao
+    m_ConditionEvent: estaNoChao
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 5352872452081242263}
@@ -233,14 +233,14 @@ AnimatorStateMachine:
     m_Position: {x: 100, y: -250, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -455668019952415010}
-    m_Position: {x: 300, y: -500, z: 0}
+    m_Position: {x: 320, y: -500, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: 1166040721684830371}
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: 320, y: -640, z: 0}
+  m_AnyStatePosition: {x: 340, y: -640, z: 0}
   m_EntryPosition: {x: 120, y: -500, z: 0}
   m_ExitPosition: {x: 630, y: -720, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
