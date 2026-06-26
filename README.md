@@ -1,5 +1,20 @@
 "JOSEPH": Jogo feito por Everton Rodrigo e Weslley de Lima - W3 Studios
 
+Commit 9: Everton Rodrigo (Modelagem 3D, Iluminação, Mecânica e Programação)
+
+* ADICIONEI VIDEO NA TV (E ADICIONEI A LUZ NELA PARA O VÍDEO APARECER NO PLAY).
+* CRIEI A IMAGEM DO PAINEL INICIAL DO JOGO.
+* ADICIONEI A PORTA DO PORÃO PERTO DA CASA.
+
+Commit 8: Weslley de Lima (Cenário e Mecânica)
+
+* ADICIONEI OS MÓVEIS NO JOGO E ADICIONEI MESH COLIDER NELES.
+* CRIEI A PORTA DO PORÃO.
+
+Commit 7: Weslley de Lima (Cenário)
+
+* ADICIONEI AS CORES NOS MATÉRIAIS E SALVEI NO GITHUB.
+
 Commit 6: Everton Rodrigo (Modelagem 3D, Iluminação, Mecânica e Programação)
 
 * TRANSFORMEI O ESPELHO EM ESPELHO REAL COM REFLEXO QUE O PERSONAGEM CONSEGUE SE VER E VER O CENÁRIO.
