@@ -1,5 +1,7 @@
 "JOSEPH": Jogo feito por Everton Rodrigo e Weslley de Lima - W3 Studios
 
+Commit 10: Backup
+
 Commit 9: Everton Rodrigo (Modelagem 3D, Iluminação, Mecânica e Programação)
 
 * ADICIONEI VIDEO NA TV (E ADICIONEI A LUZ NELA PARA O VÍDEO APARECER NO PLAY).
