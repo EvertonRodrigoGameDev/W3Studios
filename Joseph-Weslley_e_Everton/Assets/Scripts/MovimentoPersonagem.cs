@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class MovimentoPersonagem : MonoBehaviour 
 {
     private CharacterController controller;
     private Transform myCamera;
@@ -26,11 +26,9 @@ public class NewBehaviourScript : MonoBehaviour
 
     void Update()
     {
-        // VERIFICAÇÃO DE CHÃO (A esfera invisível no pé)
         estaNoChao = Physics.CheckSphere(peDoPersonagem.position, 0.3f, colisaoLayer);
         animator.SetBool("estaNoChao", estaNoChao);
 
-        // MOVIMENTAÇÃO
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
 
@@ -40,46 +38,45 @@ public class NewBehaviourScript : MonoBehaviour
 
         controller.Move(movimento * speed * Time.deltaTime);
 
-        // GRAVIDADE (Usando sua variável corrigida)
         if (estaNoChao && velocidadeY < 0)
         {
-            velocidadeY = -2f; // Mantém o personagem colado no chão
+            velocidadeY = -2f;
         }
 
         velocidadeY += gravity * Time.deltaTime;
         controller.Move(Vector3.up * velocidadeY * Time.deltaTime);
 
-        // ROTAÇÃO
         if (movimento != Vector3.zero)
         {
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(movimento), Time.deltaTime * 10);
         }
 
-        // ANIMAÇÃO DE MOVER
         animator.SetBool("Mover", movimento != Vector3.zero);
 
-        // PULO
         if (Input.GetKeyDown(KeyCode.Space) && estaNoChao)
         {
             velocidadeY = forcaDoPulo;
             animator.SetTrigger("Saltar");
         }
 
-        // LIMBO (Se o jogador cair fora do cenário abaixo de Y = -10)
         if (transform.position.y < -10f)
         {
-            GerenciadorJogo manager = FindObjectOfType<GerenciadorJogo>();
+            GameController manager = FindObjectOfType<GameController>();
             if (manager != null) manager.AtivarGameOver();
         }
     }
 
-    // DETECÇÃO DO BURACO (Killzone por Trigger)
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Killzone") || other.CompareTag("Finish"))
         {
-            GerenciadorJogo manager = FindObjectOfType<GerenciadorJogo>();
+            GameController manager = FindObjectOfType<GameController>();
             if (manager != null) manager.AtivarGameOver();
+        }
+        else if (other.CompareTag("Vitoria"))
+        {
+            GameController manager = FindObjectOfType<GameController>();
+            if (manager != null) manager.AtivarWinGame();
         }
     }
 }

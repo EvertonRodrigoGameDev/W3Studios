@@ -1,5 +1,11 @@
 "JOSEPH": Jogo feito por Everton Rodrigo e Weslley de Lima - W3 Studios
 
+Commit 13: Everton Rodrigo (Finalização - SAVE)
+* Criei a ZoneWinGame para mostrar a vitória do jogador.
+* Adicionei música nova no jogo e no Menu Principal.
+* Criei Paineis de Botão de Menu, Menu do Jogo (com Volume, Voltar, Menu e Sair), Game Over com Botão de Voltar e Menu Principal.
+* E Refinei algumas coisas que estavam precisando no código.
+
 Commit 12: Everton Rodrigo (Iluminação e Mecânica)
 
 * REFIZ TODO PAINEL / MENU adicionando:

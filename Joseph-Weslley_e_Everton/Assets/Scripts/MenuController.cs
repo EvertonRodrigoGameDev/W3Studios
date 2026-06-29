@@ -33,7 +33,6 @@ public class MenuController : MonoBehaviour
         telaMenu.SetActive(false);
         telaOpcoes.SetActive(false);
 
-        // Volume salvo
         float volume = PlayerPrefs.GetFloat("Volume", 1f);
 
         volumeSlider.value = volume;
@@ -56,19 +55,12 @@ public class MenuController : MonoBehaviour
             telaMenu.SetActive(true);
         }
     }
-    //----------------------------------
-    // BOTÃO JOGAR
-    //----------------------------------
 
     public void Jogar()
     {
         TocarSomClique();
         SceneManager.LoadScene("Jogo");
     }
-
-    //----------------------------------
-    // BOTÃO OPÇÕES
-    //----------------------------------
 
     public void AbrirOpcoes()
     {
@@ -77,11 +69,6 @@ public class MenuController : MonoBehaviour
         telaOpcoes.SetActive(true);
     }
 
-
-    //----------------------------------
-    // BOTÃO VOLTAR
-    //----------------------------------
-
     public void VoltarMenu()
     {
         TocarSomClique();
@@ -89,19 +76,11 @@ public class MenuController : MonoBehaviour
         telaMenu.SetActive(true);
     }
 
-    //----------------------------------
-    // BOTÃO SAIR
-    //----------------------------------
-
     public void Sair()
     {
         TocarSomClique();
         Application.Quit();
     }
-
-    //----------------------------------
-    // VOLUME
-    //----------------------------------
 
     public void AlterarVolume(float volume)
     {
