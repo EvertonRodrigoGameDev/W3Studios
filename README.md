@@ -1,11 +1,20 @@
 "JOSEPH": Jogo feito por Everton Rodrigo e Weslley de Lima - W3 Studios
 
+Commit 12: Everton Rodrigo (Iluminação e Mecânica)
+
+* REFIZ TODO PAINEL / MENU adicionando:
+-> "PRESSIONE QUALQUER TECLA!"
+-> JOGAR
+-> OPÇÕES
+-> SAIR
+-> Adicionei música e Efeitos sonoros ao clicar.
+-> Protagonista respirando na 2 Aba do Menu.
+-> Adicionei opções, por enquanto só o Ajuste de Volume e Botão de Voltar.
 
 Commit 11: Everton Rodrigo (Iluminação e Mecânica) e Weslley de Lima (Cenário e Mecânica)
 
 * ADICIONAMOS O RESTANTE DOS MÓVEIS QUE FALTAVAM, APLICAMOS MESH COLIDER
 * ORGANIZAMOS A COMPOSIÇÃO DOS OBJETOS NO CENÁRIO, como TV no Quarto, Cadeiras no Corredor, umas mesas de estudo no quarto e no corredor, livros na escada, espelhos duplicados e adicionamos mais iluminações que precisava.
-ps. Agora só falta fazer o Painel inicial e colocar música no jogo todo.
 
 Commit 10: Backup
 

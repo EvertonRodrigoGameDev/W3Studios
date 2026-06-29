@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\GerenciadorJogo.cs" />
+    <Compile Include="Assets\Scripts\MenuController.cs" />
     <Compile Include="Assets\Scripts\MovimentoPersonagem.cs" />
     <Compile Include="Assets\Scripts\FlashlightController.cs" />
   </ItemGroup>

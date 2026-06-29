@@ -118,19 +118,19 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 1
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Saltar
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: estaNoChao
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -233,16 +233,16 @@ AnimatorStateMachine:
     m_Position: {x: 100, y: -250, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -455668019952415010}
-    m_Position: {x: 320, y: -500, z: 0}
+    m_Position: {x: 350, y: -490, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: 1166040721684830371}
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: 340, y: -640, z: 0}
+  m_AnyStatePosition: {x: 370, y: -630, z: 0}
   m_EntryPosition: {x: 120, y: -500, z: 0}
-  m_ExitPosition: {x: 630, y: -720, z: 0}
+  m_ExitPosition: {x: 620, y: -700, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 5352872452081242263}
 --- !u!1102 &5352872452081242263
